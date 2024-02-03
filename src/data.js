@@ -79,6 +79,14 @@ export const projects = [
     image: "./projectdata/handouts.png",
     link: "https://handoutsforyou.vercel.app/"
   },
+  {
+    title: "Dicey Fate 2.0",
+    subtitle: "Godot",
+    description:
+      "A godot game made for a game jam. The game is a simple dice game with a twist. The game is open source and available on GitHub.",
+    image: "./projectdata/dice.png",
+    link: "https://github.com/Saphereye/crux-gamedev-2022"
+  },
 ];
 
 export const skills = [
@@ -103,7 +111,6 @@ export const skills = [
   "Linux",
   "Ubuntu",
   "Vim",
-
 ];
 
 export const education = [

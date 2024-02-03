@@ -32,19 +32,19 @@ export default function Education() {
                     </h1>
                 </div>
 
-                <div className="flex flex-wrap -m-4">
-                    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <div className="flex flex-wrap md:grid md:grid-cols-2">
+                    <div className="lg:flex-grow w-full">
                         <img
                             className="object-cover object-center rounded transform hover:scale-105 transition-transform duration-300"
-                            alt="hero"
-                            src="https://lh3.googleusercontent.com/p/AF1QipNTOVOb2xDAORypoiG7uSzupceomDJLXbYGevWF=s1360-w1360-h1020"
+                            alt="bitshyderabad"
+                            src="./projectdata/bits.jpg"
                         />
                     </div>
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                    <div className="w-full mx-auto items-center lg:flex-grow p-4">
+                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-justify">
                             Currently in my 3rd year of B.Tech in Computer Science at BITS Hyderabad
                         </h1>
-                        <p className="mb-8 leading-relaxed">
+                        <p className="mb-8 leading-relaxed text-justify">
                             I have completed various relevant courses in the field of Computer Science and have a good understanding of the subject. I have also completed a few projects in the field of Web Development and Machine Learning.
                         </p>
 
