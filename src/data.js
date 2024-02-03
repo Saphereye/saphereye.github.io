@@ -86,16 +86,24 @@ export const skills = [
   "Django",
   "Rust",
   "C",
-  "C++",
+  "Cplusplus",
   "Godot",
   "OpenGL",
   "Git",
+  "Github",
   "Pandas",
-  "Sklearn",
+  "Numpy",
   "Java",
   "JavaScript",
   "React",
-  "Next.js",
+  "Nextjs",
+  "Bash",
+  "GCC",
+  "Latex",
+  "Linux",
+  "Ubuntu",
+  "Vim",
+
 ];
 
 export const education = [

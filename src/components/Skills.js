@@ -5,6 +5,7 @@ import { skills } from "../data";
 export default function Skills() {
   return (
     <section id="skills">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <CpuChipIcon className="w-10 inline-block mb-4" />
@@ -19,9 +20,15 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
+            <div key={skill} className="p-2 sm:w-1/3 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                {/* <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" /> */}
+
+                {/* <i class="devicon-python-plain"></i> */}
+
+                {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> */}
+
+                <i class={`devicon-${skill.toLowerCase()}-plain text-4xl mr-2`}></i>
                 <span className="title-font font-medium text-white">
                   {skill}
                 </span>
