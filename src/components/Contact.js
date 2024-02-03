@@ -46,7 +46,8 @@ export default function Contact() {
                         <li>Mail: <a className="text-indigo-400 leading-relaxed" href="mailto:adarshdas950@gmail.com">
                             adarshdas950@gmail.com
                         </a> </li>
-                        <li>Phone No.: <a className="leading-relaxed" href="tel:+918527859660">+91 85 2785 9660</a></li>
+                        <li>Phone No.: <a className="text-indigo-400 leading-relaxed" href="tel:+918527859660">+91 85 2785 9660</a></li>
+                        <li><a className="text-indigo-400 leading-relaxed" href="./projectdata/Adarsh_resume (15 Jan)_compressed.pdf">Resume</a></li>
                     </ul>
                 </div>
             </div>

@@ -32,9 +32,7 @@ export default function About() {
                         <StyledH1>Hi, I'm Adarsh Das!</StyledH1>
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        An enthusiastic and passionate developer with a keen interest in Machine Learning and Graphics. I am a quick learner and love to work on new and challenging projects. I am currently in my 3rd year of B.Tech in Computer Science at BITS Hyderabad.
                     </p>
                     <div className="flex justify-center">
                         <a
