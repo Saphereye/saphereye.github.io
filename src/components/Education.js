@@ -41,7 +41,7 @@ export default function Education() {
                         />
                     </div>
                     <div className="w-full mx-auto items-center lg:flex-grow p-4">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-justify">
+                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-left">
                             Currently in my 3rd year of B.Tech in Computer Science at BITS Hyderabad
                         </h1>
                         <p className="mb-8 leading-relaxed text-justify">
