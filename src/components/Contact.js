@@ -15,7 +15,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap items-center">
                 <div className="flex-grow bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative min-h-[400px]">
                     <iframe
                         width="100%"
