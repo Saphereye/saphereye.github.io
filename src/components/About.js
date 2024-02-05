@@ -28,8 +28,11 @@ export default function About() {
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                    {/* <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         <StyledH1>Hi, I'm Adarsh Das!</StyledH1>
+                    </h1> */}
+                    <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-white">
+                        Hi, I'm Adarsh Das!
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         An enthusiastic and passionate developer with a keen interest in Machine Learning and Graphics. I am a quick learner and love to work on new and challenging projects. I am currently in my 3rd year of B.Tech in Computer Science at BITS Hyderabad.
