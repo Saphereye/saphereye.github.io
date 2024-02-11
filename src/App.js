@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Education from './components/Education';
+import AcademicHonors from './components/AcademicHonors';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import { useEffect, useState } from "react";
 
@@ -47,6 +48,9 @@ const Home = () => {
 
   const contactRef = useRef();
   const isVisibleContact = useIsVisible(contactRef);
+
+  const academicHonorsRef = useRef();
+  const isVisibleAcademicHonors = useIsVisible(academicHonorsRef);
   return (
     <>
       <Navbar />
@@ -58,6 +62,9 @@ const Home = () => {
       </div>
       <div ref={educationRef} className={`transition-opacity ease-in duration-700 ${isVisibleEducation ? "opacity-100" : "opacity-0"}`}>
         <Education />
+      </div>
+      <div ref={academicHonorsRef} className={`transition-opacity ease-in duration-700 ${isVisibleAcademicHonors ? "opacity-100" : "opacity-0"}`}>
+        <AcademicHonors />
       </div>
       <div ref={skillsRef} className={`transition-opacity ease-in duration-700 ${isVisibleSkills ? "opacity-100" : "opacity-0"}`}>
         <Skills />

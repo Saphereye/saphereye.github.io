@@ -21,6 +21,9 @@ export default function Navbar() {
                     <a onClick={() => scrollToElement('education')} className="mr-5 hover:text-white">
                         Education
                     </a>
+                    <a onClick={() => scrollToElement('academichonors')} className="mr-5 hover:text-white">
+                        Achievements
+                    </a>
                     <a onClick={() => scrollToElement('skills')} className="mr-5 hover:text-white">
                         Skills
                     </a>
