@@ -37,7 +37,6 @@ export default function Contact() {
                         <li><a className="text-indigo-400 leading-relaxed" href="./projectdata/Adarsh_resume (15 Jan)_compressed.pdf">Resume</a></li>
                         {/* {fact && <li>{fact}</li>} */}
                     </ul>
-
                 </div>
             </div>
         </section>
