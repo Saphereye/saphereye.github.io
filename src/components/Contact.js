@@ -1,4 +1,5 @@
 import React from "react";
+import { EnvelopeIcon, DocumentArrowDownIcon } from "@heroicons/react/24/solid";
 
 export default function Contact() {
     const [fact, setFact] = React.useState(null);
@@ -15,6 +16,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap items-center">
                 <div className="flex-grow bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative min-h-[400px]">
                     <iframe
@@ -31,11 +33,30 @@ export default function Contact() {
                         Contact Me
                     </h2>
                     <ul class="list-disc text-xl">
-                        <li>Mail: <a className="text-indigo-400 leading-relaxed" href="mailto:adarshdas950@gmail.com">
-                            adarshdas950@gmail.com
-                        </a> </li>
-                        <li><a className="text-indigo-400 leading-relaxed" href="./projectdata/Adarsh_resume (15 Jan)_compressed.pdf">Resume</a></li>
-                        {/* {fact && <li>{fact}</li>} */}
+                        <li>
+                            <EnvelopeIcon className="w-5 inline-block" />
+                            <a className="text-indigo-400 leading-relaxed px-2" href="mailto:adarshdas950@gmail.com">
+                                adarshdas950@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="devicon-github-original"></i>
+                            <a className="text-indigo-400 leading-relaxed px-2" href="https://github.com/Saphereye">
+                                Saphereye
+                            </a>
+                        </li>
+                        <li>
+                            <i class="devicon-linkedin-plain"></i>
+                            <a className="text-indigo-400 leading-relaxed px-2" href="https://www.linkedin.com/in/adarsh-das-8684ab240/">
+                                Adarsh Das
+                            </a>
+                        </li>
+                        <li>
+                            <DocumentArrowDownIcon className="w-5 inline-block" />
+                            <a className="text-indigo-400 leading-relaxed px-2" href="./projectdata/Adarsh_resume (15 Jan)_compressed.pdf">
+                                Resume
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
