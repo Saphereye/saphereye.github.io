@@ -87,6 +87,14 @@ export const projects = [
     image: "./projectdata/dice.png",
     link: "https://github.com/Saphereye/crux-gamedev-2022"
   },
+  {
+    title: "Lan-Chat",
+    subtitle: "Rust",
+    description:
+      "A rust based lan chat application. The project is open source and available on GitHub. The application utilizes TCP connection to connect to a common server which proceeds to broadcast messages to all connected clients. Supports unicode characters and quick commands.",
+    image: "./projectdata/lanchat.png",
+    link: "https://github.com/Saphereye/lan-chat"
+  },
 ];
 
 export const skills = [
