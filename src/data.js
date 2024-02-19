@@ -21,7 +21,7 @@ export const projects = [
     description:
       "A secure and user friendly quiz app interface that detects malpractices and auto submits the user's response. It can detect tab changes and window changes as well.",
     image: "./projectdata/quizapp.png",
-    link: "https://quizapp-ten-swart.vercel.app/",
+    link: "https://quizappbphc.vercel.app/",
   },
   {
     title: "Brainfuck Interpreter",
