@@ -54,7 +54,7 @@ export default function Contact() {
                         <li>
                             <DocumentArrowDownIcon className="w-5 inline-block" />
                             <a className="text-indigo-400 leading-relaxed px-2" href="./projectdata/19_Feb_2024.pdf">
-                                Resume
+                                Résumé
                             </a>
                         </li>
                     </ul>
